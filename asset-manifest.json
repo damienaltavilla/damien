@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/damien/static/css/main.09074b7b.css",
-    "main.js": "/damien/static/js/main.f4c4de16.js",
-    "index.html": "/damien/index.html",
-    "main.09074b7b.css.map": "/damien/static/css/main.09074b7b.css.map",
-    "main.f4c4de16.js.map": "/damien/static/js/main.f4c4de16.js.map"
+    "main.css": "/static/css/main.09074b7b.css",
+    "main.js": "/static/js/main.f4c4de16.js",
+    "index.html": "/index.html",
+    "main.09074b7b.css.map": "/static/css/main.09074b7b.css.map",
+    "main.f4c4de16.js.map": "/static/js/main.f4c4de16.js.map"
   },
   "entrypoints": [
     "static/css/main.09074b7b.css",
