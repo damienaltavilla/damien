@@ -1,0 +1,74 @@
+/* public/ConstructionPage.css */
+.construction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .animation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    background-color: #3498db;
+    border-radius: 50%;
+    animation: bounce 0.6s infinite alternate;
+  }
+  
+  .circle:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .circle:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .shadow {
+    width: 20px;
+    height: 4px;
+    margin: 0 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    animation: shadowBounce 0.6s infinite alternate;
+  }
+  
+  .shadow:nth-child(4) {
+    animation-delay: 0.2s;
+  }
+  
+  .shadow:nth-child(5) {
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes bounce {
+    to {
+      transform: translateY(-50px);
+    }
+  }
+  
+  @keyframes shadowBounce {
+    to {
+      transform: scale(0.5);
+    }
+  }
+  
+  .message {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
