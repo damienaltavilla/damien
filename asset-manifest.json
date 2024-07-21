@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/damien/static/css/main.09074b7b.css",
+    "main.js": "/damien/static/js/main.f4c4de16.js",
+    "index.html": "/damien/index.html",
+    "main.09074b7b.css.map": "/damien/static/css/main.09074b7b.css.map",
+    "main.f4c4de16.js.map": "/damien/static/js/main.f4c4de16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09074b7b.css",
+    "static/js/main.f4c4de16.js"
+  ]
+}
